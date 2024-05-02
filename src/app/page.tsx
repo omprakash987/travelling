@@ -23,7 +23,7 @@ export default function Home() {
     
 
     const encodedDestination = encodeURIComponent(destination);
-    // Redirect to Google Maps with the destination pre-filled
+   
     window.location.href = `https://www.google.com/maps/search/${encodedDestination}`;
   };
 
@@ -125,7 +125,7 @@ className="  rounded-xl mt-10 mr-10"
 
      <button
         className="border-dotted border-4 border-light-blue-500 m-5 p-4"
-        onClick={() => handleLearnMoreClick("The Himalayas")}
+        onClick={() => handleLearnMoreClick("Goa")}
       >
         Learn More
       </button>
