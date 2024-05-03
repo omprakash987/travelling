@@ -35,25 +35,39 @@ export default function Home() {
           width: "100%"
         }}
       >
-        <nav className=" ">
-          <ul className=" flex flex-row-reverse p-4 cursor-pointer text-black">
-            <li className=" m-4">
-              {isSignedIn ? (
-                <div>
-                  <UserButton />
-                </div>
-              ) : (
-                <div>
-                  <Link href={"/sign-up"}>
-                    <button>Login</button>
-                  </Link>
-                </div>
-              )}
-            </li>
-            <li className=" m-4">Contact</li>
-            <li className=" m-4">About</li>
-            <li className=" m-4">Home</li>
-          </ul>
+        <nav className=" flex flex-row-reverse ">
+
+          <div>
+
+  
+          <ul className=" flex justify-end p-4 cursor-pointer text-black">
+
+            <h1 className=" flex justify-center items-center  p-5 text-5xl mr-80 text-black font-bold">TravelX</h1>
+
+         
+           
+<li className=" m-4">
+   Home
+ </li>
+ <li className=" m-4">About</li>
+ <li className=" m-4">Contact</li>
+ <li className=" m-4">{isSignedIn ? (
+     <div>
+       <UserButton />
+     </div>
+   ) : (
+     <div>
+       <Link href={"/sign-up"}>
+         <button>Login</button>
+       </Link>
+     </div>
+   )}</li>
+
+</ul>
+
+
+          </div>
+         
         </nav>
         <Image
           src={"/foreground 1.png"}
