@@ -44,7 +44,7 @@ router.push('/sign-in');
     }}>
       <nav className=" ">
         <ul className=" flex flex-row-reverse p-4 cursor-pointer text-black">
-          <li onClick={handleLogin} className=" m-4">{
+          <li className=" m-4">{
             isSignedIn?( 
             <div>
                  
