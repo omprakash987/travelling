@@ -56,7 +56,7 @@ export default function Home() {
           </ul>
         </nav>
         <Image
-          src={"/foreground-1.png"}
+          src={"/foreground 1.png"}
           alt="boy image"
           height={50}
           width={500}
