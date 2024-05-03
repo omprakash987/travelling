@@ -25,7 +25,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className=" overflow-hidden">
       <div
         style={{
           backgroundImage: `url(${"pic.png"})`,
@@ -107,7 +107,7 @@ export default function Home() {
           <hr />
 
           <p>
-            Goa, a coastal paradise nestled along the azure Arabian Sea on India&apos;s western coast, is a destination that truly captivates the soul. Its sun-kissed beaches, framed by swaying palms and golden sands, invite visitors to unwind and soak in the laid-back coastal vibe. Beyond its breathtaking natural beauty, Goa is a melting pot of cultures, evident in its rich tapestry of colonial architecture, ancient temples, and bustling markets. Whether you&apos;re seeking vibrant beach parties pulsating with energy or serene yoga retreats offering inner peace, Goa caters to every traveler&apos;s desires. And let&apos;s not forget the culinary delights Goa has to offer—indulge in fresh seafood curries, fiery vindaloos, and sweet treats like Bebinca, ensuring that every meal is a delightful journey into Goan flavors.
+            Goa, a coastal paradise nestled along the azure Arabian Sea <br /> on India&apos;s western coast, is a destination that truly captivates <br /> the soul.  Its sun-kissed beaches, framed by swaying palms <br /> and golden sands, invite visitors to unwind and soak in the <br /> laid-back coastal vibe.  <br />Beyond its breathtaking natural beauty, Goa is a melting <br /> pot of cultures, <br /> evident in its rich tapestry of colonial architecture, <br /> ancient temples, and bustling markets. Whether you&apos;re <br />seeking vibrant beach parties pulsating with energy <br />  or serene yoga retreats offering inner peace, Goa <br /> caters to every traveler&apos;s desires. And let&apos;s not forget the <br /> culinary delights <br /> Goa has to offer—indulge in fresh seafood curries, fiery vindaloos, <br /> and sweet treats like Bebinca, <br /> ensuring that every meal is a delightful journey into Goan flavors.
           </p>
 
           <button
