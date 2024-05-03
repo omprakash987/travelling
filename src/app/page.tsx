@@ -42,7 +42,7 @@ export default function Home() {
   
           <ul className=" flex justify-end p-4 cursor-pointer text-black">
 
-            <h1 className=" flex justify-center items-center  p-5 text-5xl mr-80 text-black font-bold">TravelX</h1>
+            <h1 className=" flex justify-center items-center  p-5  text-9xl mr-80 text-black font-bold mt-80 ">TravelX</h1>
 
          
            
